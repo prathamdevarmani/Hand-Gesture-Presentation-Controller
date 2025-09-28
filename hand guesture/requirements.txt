@@ -1,0 +1,26 @@
+# Core runtime deps
+cvzone==1.5.6
+mediapipe==0.10.20
+numpy==1.23.5
+pandas==1.5.3
+protobuf==4.25.3
+
+# OpenCV (cv2). mediapipe brings opencv-contrib-python; cvzone depends on opencv-python
+opencv-python==4.11.0.86
+opencv-contrib-python==4.11.0.86
+
+# TensorFlow/Keras stack required by mediapipe tasks API
+tensorflow-cpu==2.15.0
+keras==2.15.0
+
+# Optional but frequently installed via subdeps; included for reproducibility
+jax==0.4.30
+jaxlib==0.4.30
+ml-dtypes==0.2.0
+tensorboard==2.15.2
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.31.0
+google-auth==2.40.3
+google-auth-oauthlib==1.2.2
+requests-oauthlib==2.0.0
+cachetools==5.5.2
